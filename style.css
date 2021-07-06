@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar{
+    display: flex;
+    background: salmon;
+    
+}
+.logo{
+    float: left;
+    margin-left: 249px;
+}
+.top-menu{
+    color: white;
+    float: right;
+}
+ul {
+    list-style: none;
+
+    text-align: center;
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  ul a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+  .Section-grid{
+      margin-left: 7%;
+      margin-right: 7%;
+      display: flex;
+      position: relative;
+  }
+  .half-weight{
+      max-width: 50%;
+    
+
+  }
+  #banner{
+      font-size: 4vw;
+      font-weight: bold;
+  }
+  .burger-house{
+      color: rgb(241, 134, 11);
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  .button{
+    background: linear-gradient(45deg, rgb(235, 208, 58), rgb(218, 151, 7));
+    padding: 10px 40px;
+    border-radius:50px;
+}
+
+.about-us{
+   
+    background-image: url(images/Frame56.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100vh;
+    
+}
